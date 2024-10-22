@@ -48,6 +48,11 @@ LAUNCH_FRAGMENT_SPECS: Dict[str, IsaacROSLaunchFragmentSpec] = {
         'isaac_ros_realsense', 'IsaacROSRealSenseMonoRectDepthLaunchFragment',
         'isaac_ros_realsense_mono_rect_depth_core.launch.py'),
 
+    # Orbbec Camera
+    'orbbec_mono_rect_depth': IsaacROSLaunchFragmentSpec(
+        'isaac_ros_orbbec', 'IsaacROSOrbbecMonoRectDepthLaunchFragment',
+        'isaac_ros_orbbec_mono_rect_depth_core.launch.py'),
+
     # Argus Camera
     'argus_mono': IsaacROSLaunchFragmentSpec(
         'isaac_ros_argus_camera', 'IsaacROSArgusMonoLaunchFragment',
