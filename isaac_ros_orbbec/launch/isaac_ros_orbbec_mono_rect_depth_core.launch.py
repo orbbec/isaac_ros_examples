@@ -51,7 +51,7 @@ class IsaacROSOrbbecMonoRectDepthLaunchFragment(IsaacROSLaunchFragment):
     @staticmethod
     def get_composable_nodes(interface_specs: Dict[str, Any]) -> Dict[str, ComposableNode]:
         orbbec_config_file_path = os.path.join(
-            get_package_share_directory('orbbec_camera'),
+            get_package_share_directory('isaac_ros_orbbec'),
             'config', 'camera_params.yaml'
         )
 
